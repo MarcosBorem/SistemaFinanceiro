@@ -31,7 +31,7 @@ namespace Infra.Configuracao
         }
         public string ObterStringConexao()
         {
-           return "Data Source=MARCOS;Initial Catalog=FINANCEIRO_2023;Integrated Security=True"; 
+           return "Data Source=MARCOS;Initial Catalog=FINANCEIRO_2023;Integrated Security=True;TrustServerCertificate=True"; 
         }
     }
 }
